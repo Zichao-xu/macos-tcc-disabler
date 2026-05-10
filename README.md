@@ -22,7 +22,7 @@
 # Apple Silicon：重启按住电源键；Intel：重启按住 Command+R
 # 进入 Recovery 后，打开 实用工具 → 终端，执行：
 
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/Zichao-xu/macos-tcc-disabler/main/disable_tccd.sh)"
+curl -fsSL https://raw.githubusercontent.com/Zichao-xu/macos-tcc-disabler/main/disable_tccd.sh | bash
 ```
 
 ### 手动执行
